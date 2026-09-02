@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Sudoku Studio</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    max-width: 46rem;
+    margin: 0 auto;
+    padding: 3rem 1.25rem 6rem;
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    color: #1b1d22;
+    background: #fff;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e6e8ee; background: #14161a; }
+    a { color: #7ca0ff; }
+    th, td { border-color: #2c313b !important; }
+    code { background: #22262e; }
+  }
+  h1 { font-size: 1.85rem; line-height: 1.2; margin: 0 0 .4rem; }
+  h2 { font-size: 1.15rem; margin: 2.4rem 0 .6rem; }
+  .updated { color: #6b7280; font-size: .9rem; margin: 0 0 2rem; }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: .95rem; }
+  th, td { border: 1px solid #dcdfe5; padding: .55rem .7rem; text-align: left; vertical-align: top; }
+  th { font-weight: 600; }
+
+  /* Three columns will not fit a phone. Below this width each row becomes its
+     own block and the column headings move inline, so nothing is cut off. */
+  @media (max-width: 34rem) {
+    table, tbody, tr, td, th { display: block; }
+    thead { display: none; }
+    tr {
+      border: 1px solid #dcdfe5;
+      border-radius: 4px;
+      margin: 0 0 .75rem;
+      padding: .3rem .1rem;
+    }
+    td { border: none; padding: .35rem .7rem; }
+    td::before {
+      content: attr(data-label);
+      display: block;
+      font-size: .72rem;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      color: #6b7280;
+      margin-bottom: .1rem;
+    }
+  }
+  @media (prefers-color-scheme: dark) and (max-width: 34rem) {
+    tr { border-color: #2c313b; }
+  }
+  code { background: #f1f2f5; padding: .1rem .35rem; border-radius: 3px; font-size: .9em; }
+  ul { padding-left: 1.2rem; }
+  li { margin: .3rem 0; }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy</h1>
+<p class="updated">Sudoku Studio · Last updated 1 September 2026</p>
+
+<p>Sudoku Studio is a sudoku game for iPhone. This policy explains exactly what the app collects, where it goes, and how to remove it. It covers the app only.</p>
+
+<h2>What the app collects</h2>
+
+<table>
+  <thead>
+    <tr><th>Data</th><th>Why</th><th>Where it is stored</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Data">Email address</td>
+      <td data-label="Why">To create and sign you in to your account</td>
+      <td data-label="Where it is stored">Firebase Authentication</td>
+    </tr>
+    <tr>
+      <td data-label="Data">Account identifier</td>
+      <td data-label="Why">To tell your account apart from other accounts</td>
+      <td data-label="Where it is stored">Firebase Authentication</td>
+    </tr>
+    <tr>
+      <td data-label="Data">Display name</td>
+      <td data-label="Why">Shown on your profile. Optional.</td>
+      <td data-label="Where it is stored">Firebase Authentication</td>
+    </tr>
+    <tr>
+      <td data-label="Data">Game progress and statistics</td>
+      <td data-label="Why">To continue your puzzles and track your record</td>
+      <td data-label="Where it is stored">Your device only — never uploaded</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>That is the complete list. The app contains no advertising, no analytics, and no tracking of any kind. Nothing is shared with data brokers, and nothing is used to build a profile of you or to follow you across other apps or websites.</p>
+
+<h2>Your game data stays on your device</h2>
+
+<p>Puzzle progress, completion times, streaks and settings are stored locally on your iPhone and are not sent to any server. They are not backed up to our systems and are not synced between devices. If you delete the app, that data is gone.</p>
+
+<h2>Sign in with Apple</h2>
+
+<p>If you sign in with Apple you may choose <strong>Hide My Email</strong>. Apple then gives the app a private relay address instead of your real one, and the app never sees your actual email address. This is fully supported — you can use the app normally.</p>
+
+<h2>Face ID</h2>
+
+<p>If you turn on biometric unlock, iOS performs the Face ID check itself and only tells the app whether it succeeded. The app never receives your face data. Credentials for this feature are held in the iOS Keychain on your device.</p>
+
+<h2>Who processes your data</h2>
+
+<p>Account sign-in is handled by <strong>Firebase Authentication</strong>, a service operated by Google. Your email address and account identifier are stored on their servers on our behalf. See the <a href="https://firebase.google.com/support/privacy">Firebase privacy documentation</a> for how they handle it.</p>
+
+<p>Sudoku Studio does not sell your data, and does not share it with anyone else.</p>
+
+<h2>Deleting your account</h2>
+
+<p>You can delete your account from inside the app, at any time, without contacting anyone: <strong>Profile → Account deletion</strong>.</p>
+
+<p>Deleting your account:</p>
+<ul>
+  <li>removes your account and email address from Firebase Authentication</li>
+  <li>revokes the app's Sign in with Apple token, so the app disappears from Settings → Sign in with Apple on your device</li>
+  <li>clears your saved progress and any stored credentials from the device</li>
+</ul>
+
+<p>This is immediate and cannot be undone. Signing out also clears saved progress from the device.</p>
+
+<h2>Children</h2>
+
+<p>Sudoku Studio is not directed at children under 13, and the app does not knowingly collect data from them.</p>
+
+<h2>Changes</h2>
+
+<p>If this policy changes, the revised version will be posted on this page with a new date at the top.</p>
+
+<h2>Contact</h2>
+
+<p>Questions about this policy or about your data: <a href="mailto:support@sudokustudiogame.com">support@sudokustudiogame.com</a></p>
+
+</body>
+</html>
